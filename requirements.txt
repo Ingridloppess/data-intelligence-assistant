@@ -1,0 +1,11 @@
+pandas
+numpy
+requests
+matplotlib
+seaborn
+plotly
+openpyxl
+gspread
+oauth2client
+python-dotenv
+jinja2
