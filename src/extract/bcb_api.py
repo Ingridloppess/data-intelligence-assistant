@@ -1,0 +1,1 @@
+print("Conectando à API do Banco Central...")
