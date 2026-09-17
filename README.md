@@ -19,4 +19,4 @@ Automatizar a coleta, tratamento, análise e envio de relatórios econômicos.
 - Pandas
 - Google Sheets
 - API Banco Central
-- API IBGE
+- API IBGE 
