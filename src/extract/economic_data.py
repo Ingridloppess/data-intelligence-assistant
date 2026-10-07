@@ -35,5 +35,13 @@ def download_indicator(codigo):
 df = download_indicator(11)
 
 if df is not None:
+    print("\nSELIC")
+    print(df.head())
+    print(df.shape)
+
+df = download_indicator(433)
+
+if df is not None:
+    print("\nIPCA")
     print(df.head())
     print(df.shape)
