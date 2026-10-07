@@ -9,6 +9,7 @@ from src.transform.clean_data import (
 from src.utils.save_files import (
     save_csv
 )
+from src.utils.logger import logger
 
 INDICATORS = {
     "selic": 11,
@@ -20,7 +21,7 @@ def run_pipeline():
 
     for name, code in INDICATORS.items():
 
-        print(
+        logger.info(
             f"Baixando {name}..."
         )
 
@@ -40,7 +41,7 @@ def run_pipeline():
             f"data/processed/{name}.csv"
         )
 
-        print(
+        logger.info(
             f"{name} concluído."
         )
 
